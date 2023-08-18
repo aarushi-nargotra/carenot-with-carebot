@@ -1,0 +1,104 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you repair?",
+          "What kinds of items are there?",
+          "What do you repair?",
+          "what types of devices repaired"
+
+        ],
+        "responses": [
+          "Washing Machine, Dryer repair, dishwasher repair, Microwave repair, Oven repair, Front Loading Washing Machine, Fully automatic top loading washing machine, convection microvwave, grill microwave and many more."
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?",
+          "What are the hours of operation"
+        ],
+        "responses": [
+          "cash / Cards / UPI"
+          
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days"
+          
+        ]
+      },
+      {
+        "tag": "timings",
+        "patterns": [
+          "what are the timings",
+          "when does it open",
+          "when does it close",
+          "What are the hours of operation",
+          "when are you available",
+          "Are you open on weekends",
+          "Are you open on Sunday"
+        ],
+        "responses": [
+          "9 am to 6 pm- MONDAY TO SATURDAY"
+          
+        ]
+      },
+      {
+        "tag": "cost",
+        "patterns": [
+          "what are your rates",
+          "what do you cost",
+          "what are the charges",
+          "how much is the cost for ac service"
+          
+        ],
+        "responses": [
+          "it varies according to the product, kindly contact 95645XXXXX for further details, thanks!"
+          
+        ]
+      }
+    ]
+  }
